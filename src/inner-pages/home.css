@@ -1,0 +1,25 @@
+.home .banner{
+    background-image: url('../assets/inner-pages/home_opening.JPG');
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -210px;
+}
+.flash-news{
+    text-align: right;
+}
+.flash-news .quotes{
+    text-align: center;
+}
+.home.banner-section .flash-news{
+    background-color: #dfd246;
+}
+.home.banner-section .quotes{
+    background-color: #977804; 
+}
+.flashred{
+    color : red;
+}

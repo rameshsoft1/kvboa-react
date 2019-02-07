@@ -1,0 +1,41 @@
+.logo{
+    background-image: url('../assets/common/logo.png');
+    background-size: 98px 98px;
+    width:98px;
+    height: 98px;
+    display: block;
+    margin:0 auto;
+}
+.logo2{
+    background-image: url('../assets/common/logo2.png');
+    background-size: 98px 98px;
+    width:98px;
+    height: 98px;
+    display: block;
+    margin:0 auto;
+}
+.header-top >.row{
+    background-color: #28a745;
+}
+.main-title{
+    vertical-align: middle;
+}
+.main-title h1{
+    font-size: 3em;
+    text-align: center;
+    color : #fff;
+}
+.header-nav{
+    padding-right:0;
+    padding-left:0;
+}
+
+.header-nav .bg-dark{
+    background-color:#003159 !important;
+}
+.header-nav .nav-link{
+    color:#fff !important;
+}
+.nav-item:hover{
+    background-color: #28a745;
+}
