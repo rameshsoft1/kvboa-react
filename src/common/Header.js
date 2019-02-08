@@ -9,14 +9,14 @@ class Header extends Component {
         <div className="row">
         
           <div className="col-md-12 header-top">
-              <div className="row">
-                <div className="col-md-2"><span className="logo mt-2"></span></div>
+              <div className="row  mx-0">
+                <div className="col-md-2"><span className="logo my-2"></span></div>
                 <div className="col-md-8 main-title">
                   <h1>
                   KARUR VYSYA BANK OFFICERS ASSOCIATION  
                   </h1>
                 </div>
-                <div className="col-md-2"><span className="logo2 mt-2"></span></div>
+                <div className="col-md-2"><span className="logo2 my-2"></span></div>
               </div>
           </div>
           <div className="col-md-12 header-nav">
