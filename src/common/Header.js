@@ -8,18 +8,18 @@ class Header extends Component {
     return (
         <div className="row">
         
-          <div className="col-md-12 header-top">
-              <div className="row  mx-0">
-                <div className="col-md-2"><span className="logo my-2"></span></div>
-                <div className="col-md-8 main-title">
+          <div className=" col-md-12 header-top px-0">
+              <div className="row">
+                <div className="col-2 col-md-2 py-3"><span className="logo my-2"></span></div>
+                <div className="col-8 col-md-8 main-title">
                   <h1>
                   KARUR VYSYA BANK OFFICERS ASSOCIATION  
                   </h1>
                 </div>
-                <div className="col-md-2"><span className="logo2 my-2"></span></div>
+                <div className="col-2 col-md-2  py-3"><span className="logo2 my-2"></span></div>
               </div>
           </div>
-          <div className="col-md-12 header-nav">
+          <div className="col-md-12 header-nav px-0">
               
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             
@@ -46,7 +46,7 @@ class Header extends Component {
                     </div>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/about">Our Team</Link>
+                    <Link className="nav-link" to="/ourteam">Our Team</Link>
                   </li>
                   <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

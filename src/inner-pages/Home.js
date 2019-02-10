@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './home.css';
+import './style.css';
 
 class Home extends Component {
   render() {
     return (
       <div className="homepage">
           <div className="row home banner-section">
-            <div className="col-12 col-md-4 pr-0">
+            <div className="col-12 col-md-4 px-0">
               <div className="flash-news p-2 pb-0">
                 <h5 className="flashred">FLASH NEWS</h5>
                 <h6 className="flashred">10th December 2018</h6>
@@ -30,7 +30,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-8 pl-0">
+            <div className="col-12 col-md-8 px-0">
               <div className="banner"></div>
             </div>
           </div>
