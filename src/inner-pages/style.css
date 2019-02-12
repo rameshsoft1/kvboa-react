@@ -1,14 +1,20 @@
-.home .banner{
-    background-image: url('../assets/inner-pages/home_opening.JPG');
+.banner{
   
+    height: 470px;
     width: 100%;
-    height: calc(100%);
     display: block;
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-size: 100% 690px;
-    background-position: 0px -210px;
+    background-size: cover;
+    background-position: center;
 }
+
+.home .banner{
+    background-image: url('../assets/inner-pages/home_opening.JPG');
+    width: 100%;
+    height: calc(100%);
+}
+
 
 .flash-news{
     text-align: right;
@@ -35,18 +41,14 @@
 /**about style start**/
 .about .banner{
     background-image: url('../assets/inner-pages/home_opening.JPG');
-    width: 100%;
-    height: 370px;
-    display: block;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-size: 100% 950px;
-    background-position: 0px -391px;
 }
 
 /**about style end**/
 
 /**ourteam style start**/
+.ourteampage .banner{
+    background-image: url('../assets/inner-pages/ourteam.png');
+}
 .ourteampage .img-row-1 div.img-clm:nth-child(2) span{
     background-image: url('../assets/inner-pages/person_1.png');
 }
@@ -90,17 +92,41 @@
 
 /**ourteam style end**/
 
+
+/**contatc us start**/
+.contact .banner{
+    background-image: url('../assets/inner-pages/ourteam.png');
+}
+.contactpage .row.detail h4,.contactpage .row.detail h5,.contactpage .row.detail h6{
+    text-align: center;
+}
+.contactpage .row.detail h4{
+    text-decoration: underline;
+}
+/**contatc us end**/
+
 @media (max-width: 767.98px) { 
-    .home .banner{
-        height: 300px;
-    display: block;
-    background-position: 0px -280px;
+   .home .banner{
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .main-title h1 {
+        font-size: 1em;
     }
 
 }
 @media (max-width: 575.98px) { 
     .home .banner{
+        width: 100%;
         height: 200px;
-    background-size: 100% 488px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .main-title h1 {
+        font-size: 1em;
     }
 }

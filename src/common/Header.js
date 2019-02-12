@@ -10,13 +10,13 @@ class Header extends Component {
         
           <div className=" col-md-12 header-top px-0">
               <div className="row">
-                <div className="col-2 col-md-2 py-3"><span className="logo my-2"></span></div>
-                <div className="col-8 col-md-8 main-title">
+                <div className="col-3 col-md-2 py-3"><span className="logo my-2"></span></div>
+                <div className="col-6 col-md-8 main-title">
                   <h1>
                   KARUR VYSYA BANK OFFICERS ASSOCIATION  
                   </h1>
                 </div>
-                <div className="col-2 col-md-2  py-3"><span className="logo2 my-2"></span></div>
+                <div className="col-3 col-md-2  py-3"><span className="logo2 my-2"></span></div>
               </div>
           </div>
           <div className="col-md-12 header-nav px-0">
@@ -61,7 +61,7 @@ class Header extends Component {
                     </div>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/about">Contact Us</Link>
+                    <Link className="nav-link" to="/contact">Contact Us</Link>
                   </li>
                 </ul>
              
