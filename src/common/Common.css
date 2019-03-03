@@ -24,7 +24,7 @@
     margin:0 auto;
 }
 .header-top >.row{
-    background-color: #3b5d43;
+    background-color: #266c0c;
 }
 .main-title{
     vertical-align: middle;
@@ -49,7 +49,7 @@
     color:#fff !important;
 }
 .nav-item:hover{
-    background-color: #3b5d43;
+    background-color: #266c0c;
 }
 .row{
     margin: 0;

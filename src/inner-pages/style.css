@@ -22,8 +22,9 @@
 .flash-news .quotes{
     text-align: center;
 }
-.home.banner-section{
-    border-bottom:5px solid #b8bdb7;
+
+.carousel-inner{
+    height: 339px;
 }
 .home.banner-section .flash-news{
     background-color: #dfd246;
