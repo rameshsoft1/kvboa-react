@@ -24,10 +24,10 @@
 }
 
 .carousel-inner{
-    height: 339px;
+    height: 270px;
 }
 .home.banner-section .flash-news{
-    background-color: #dfd246;
+    
 }
 .home.banner-section .quotes{
     background-color: #977804; 
@@ -39,6 +39,12 @@
     text-align: center;
 }
 
+.carousel-indicators li{
+    background-color: #1b2719;
+}
+.carousel-indicators .active{
+    background-color: #44c315;
+}
 /**about style start**/
 .about .banner{
     background-image: url('../assets/inner-pages/home_opening.JPG');
@@ -105,7 +111,23 @@
     text-decoration: underline;
 }
 /**contatc us end**/
-
+@media (min-width: 768px){
+    .content{
+        width:960px;
+        margin:0 auto;
+       
+        background-color: #ffffff;
+    }
+    .home.banner-section .col-12{
+        background-color: #e4e4e4;;
+    }
+    .carousel-inner{
+        height: 429px;
+    }
+    .carousel-indicators{
+        margin-bottom: -13px;
+    }
+}
 @media (max-width: 767.98px) { 
    .home .banner{
         width: 100%;

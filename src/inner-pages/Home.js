@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './style.css';
-import home_openinng from '../assets/inner-pages/home_opening.JPG';
-import groupfy from '../assets/inner-pages/groupfy.jpg';
+import c_0 from '../assets/inner-pages/c_0.jpg';
+import c_1 from '../assets/inner-pages/c_1.jpg';
+import c_2 from '../assets/inner-pages/c_2.jpg';
+import c_3 from '../assets/inner-pages/c_3.jpg';
+import c_4 from '../assets/inner-pages/c_4.jpg';
+import c_5 from '../assets/inner-pages/c_5.jpg';
 
 class Home extends Component {
 
@@ -9,9 +13,9 @@ class Home extends Component {
   render() {
   
     return (
-      <div className="homepage">
+      <div className="content homepage">
           <div className="row home banner-section">
-            <div className="col-12 col-md-4 px-0">
+            <div className="col-12 col-md-4 px-0 order-2 order-md-1">
               <div className="flash-news p-2 pb-0">
                 <h5 className="flashred">FLASH NEWS</h5>
                 <h6 className="flashred">10th December 2018</h6>
@@ -35,22 +39,37 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-8 px-0">
+            <div className="col-12 col-md-8 px-0 order-1 order-md-2">
            
 
               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                  
                 </ol>
                 <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img className="d-block w-100" src={home_openinng} alt="First slide"/>
-                    
+                <div className="carousel-item active">
+                    <img className="d-block w-100" src={c_0} alt="First slide"/>
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src={groupfy} alt="Second slide"/>
+                    <img className="d-block w-100" src={c_1} alt="First slide"/>
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src={c_2} alt="Second slide"/>
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src={c_3} alt="Second slide"/>
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src={c_4} alt="Second slide"/>
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src={c_5} alt="Second slide"/>
                   </div>
             
                 </div>
